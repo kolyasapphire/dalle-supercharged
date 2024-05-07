@@ -4,7 +4,7 @@ import OpenAI from "https://deno.land/x/openai@v4.29.2/mod.ts";
 const EXAMPLE =
   "OPENAI_TOKEN=abcd1234 deno run index.ts A gigantic shiba dog in the city";
 
-load({ export: true });
+await load({ export: true });
 
 const apiKey = Deno.env.get("OPENAI_TOKEN");
 
