@@ -1,3 +1,8 @@
+<p float="left">
+  <img src="https://github.com/kolyasapphire/dalle-supercharged/assets/4752441/3d5d1eb4-dda8-4809-9408-8dd16dc9087a" width="381" height="264" />
+  <img src="https://github.com/kolyasapphire/dalle-supercharged/assets/4752441/cd118928-4fc0-4321-b7fb-19d137a0a9bc" width="448" height="260,5" />
+</p>
+
 # Dall-E Supercharged
 
 A helper script leveraging ChatGPT-4 to generate powerful prompts for Dall-E 3.
