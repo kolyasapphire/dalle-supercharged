@@ -25,7 +25,8 @@ const PROMPT = Deno.args.join(" ");
 const openai = new OpenAI({ apiKey });
 
 const completion = await openai.chat.completions.create({
-  model: "gpt-4-turbo", // latest preview is for some reason not latest now
+  // https://platform.openai.com/docs/models
+  model: "gpt-4o",
   messages: [
     { role: "user", content: `Generate a DALL·E prompt for: ${PROMPT}` },
   ],
